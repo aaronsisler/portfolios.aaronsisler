@@ -2,6 +2,7 @@
 
 ## Notes
 
+- This is the CloudFront Id: E3IX6EANN4QMLA
 - README is from ChatGPT giving some suggestions on how to build out the site
 - This link is from Bolt.new and is more fleshed out: https://stackblitz.com/edit/sb1-taktvuhs?file=index.html
 - This link is from the actual Bolt.new website: https://bolt.new/~/sb1-taktvuhs
