@@ -42,8 +42,8 @@
 
 #### Navbar, Hero, and Footer
 
-- Footer
-- Hero needs buttons still
+- Hero needs CTA and link buttons still
+- Footer needs link buttons still
 
 #### About Me
 
