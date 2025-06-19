@@ -35,12 +35,15 @@
     </div>
     <!-- Mobile Navigation -->
     <div class="md:hidden">
-      <div class="nav__links" [class.nav__links--open]="isToggled">
+      <div
+        class="nav__links bg-stone-950 flex justify-start gap-16 py-10 flex-col"
+        [class.nav__links--open]="isToggled"
+      >
         @for (navItem of navItems; track $index) {
         <button
           key="{item.id}"
           (click)="scrollToSection(navItem.id)"
-          class="text-gray-300 hover:text-purple-400 transition-colors duration-300 font-medium text-left"
+          class="text-purple-300 font-light text-4xl text-center"
         >
           {{ navItem.name }}
         </button>

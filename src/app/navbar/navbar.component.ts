@@ -44,6 +44,7 @@ export class NavbarComponent implements OnInit, OnDestroy {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      this.setToggle(false);
     }
   }
 }
