@@ -1,0 +1,16 @@
+.hamburger__line {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+/* When the wrapper (e.g., button) has the toggled class */
+.hamburger__toggled .hamburger__line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.hamburger__toggled .hamburger__line:nth-child(2) {
+  opacity: 0;
+}
+.hamburger__toggled .hamburger__line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}

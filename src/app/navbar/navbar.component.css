@@ -1,0 +1,15 @@
+.hamburger-wrapper {
+  z-index: 50;
+}
+.nav__links {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  transition: transform 0.3s ease;
+}
+
+.nav__links.nav__links--open {
+  transform: translateX(-100%);
+}

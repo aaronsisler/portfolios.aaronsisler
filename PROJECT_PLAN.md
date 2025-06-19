@@ -1,14 +1,23 @@
 ## Project Plan
 
+## Layout
+
+- Navbar
+- Hero
+- About Me
+- Featured Projects
+- Skills & Technologies
+- Let's Connect
+- Footer
+
 ## Deliverables
 
-- New shell application created
-- Deployment and PR process defined
-- Navbar, Landing, and Footer
-- About Me
-- Skills & Tech
-- Let's Connect
-- Featured Projects
+- Phase 1: New shell application created, Deployment, and PR process defined
+- Phase 2: Navbar, Hero, and Footer
+- Phase 3: About Me
+- Phase 4: Skills & Tech
+- Phase 5: Let's Connect
+- Phase 6: Featured Projects
 
 ### Nice touches I want to include
 
@@ -27,13 +36,14 @@
 
 ### Stages
 
-#### New shell application created
-
-#### Deployment and PR process defined
+#### New shell application created, Deployment and PR process defined
 
 - This is the CloudFront Id: E3IX6EANN4QMLA
 
-#### Navbar, Landing, and Footer
+#### Navbar, Hero, and Footer
+
+- Footer
+- Hero needs buttons still
 
 #### About Me
 

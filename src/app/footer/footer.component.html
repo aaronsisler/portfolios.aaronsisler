@@ -1,0 +1,49 @@
+<footer class="bg-slate-900 text-white">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="space-y-4">
+        <p><span class="text-xl font-bold">Aaron Sisler</span></p>
+        <p class="text-slate-400 leading-relaxed">
+          Full-stack developer passionate about creating exceptional web
+          experiences and robust APIs. Always learning, always building.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold text-white">Quick Links</h3>
+        <div class="space-y-2 pt-2 flex flex-col items-start leading-relaxed">
+          @for (navItem of navItems; track $index) {
+          <button
+            class="text-slate-400 hover:text-white transition-colors duration-200 cursor-pointer"
+            (click)="scrollToSection(navItem.id)"
+          >
+            {{ navItem.name }}
+          </button>
+          }
+        </div>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-lg font-semibold text-white">Get In Touch</h3>
+        <div class="space-y-2 text-slate-400">
+          <p>aaron.sisler&commat;eandbsolutions.com</p>
+        </div>
+        <div class="bg-slate-800 py-4 px-2 rounded-lg">
+          <p class="text-sm text-slate-400">
+            Open to freelance projects and part-time opportunities
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between"
+    >
+      <p class="text-slate-400 text-sm">
+        © {{ currentYear }} Aaron Sisler. All rights reserved.
+      </p>
+      <div
+        class="flex items-center space-x-1 text-slate-400 text-sm mt-4 md:mt-0"
+      >
+        <span>Made with ❤️ and lots of coffee</span>
+      </div>
+    </div>
+  </div>
+</footer>
