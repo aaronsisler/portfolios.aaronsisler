@@ -42,6 +42,9 @@
 
 #### Navbar, Hero, and Footer
 
+- Footer
+- Hero needs buttons still
+
 #### About Me
 
 #### Skills & Tech
