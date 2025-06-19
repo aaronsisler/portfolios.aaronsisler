@@ -8,17 +8,36 @@
 >
   <div class="container mx-auto px-6 py-4">
     <div class="flex items-center justify-between">
+      <!-- Logo -->
       <div class="text-2xl font-bold">
         <span
           class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
           >Aaron Sisler
         </span>
       </div>
+      <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center space-x-8">
         @for (navItem of navItems; track $index) {
         <button
           class="cursor-pointer text-gray-300 hover:text-purple-400 transition-colors duration-300 font-medium"
           (click)="scrollToSection(navItem.id)"
+        >
+          {{ navItem.name }}
+        </button>
+        }
+      </div>
+      <div class="md:hidden">
+        <app-hamburger />
+      </div>
+    </div>
+    <!-- Mobile Navigation -->
+    <div class="md:hidden">
+      <div class="flex flex-col space-y-4 pt-4">
+        @for (navItem of navItems; track $index) {
+        <button
+          key="{item.id}"
+          (click)="scrollToSection(navItem.id)"
+          class="text-gray-300 hover:text-purple-400 transition-colors duration-300 font-medium text-left"
         >
           {{ navItem.name }}
         </button>

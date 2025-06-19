@@ -1,9 +1,10 @@
 import { CommonModule } from "@angular/common";
 import { Component, OnDestroy, OnInit } from "@angular/core";
+import { HamburgerComponent } from "../hamburger/hamburger.component";
 
 @Component({
   selector: "app-navbar",
-  imports: [CommonModule],
+  imports: [CommonModule, HamburgerComponent],
   templateUrl: "./navbar.component.html",
   styleUrl: "./navbar.component.css",
 })
