@@ -10,6 +10,7 @@ import { HamburgerComponent } from "../hamburger/hamburger.component";
 })
 export class NavbarComponent implements OnInit, OnDestroy {
   isScrolled: boolean = false;
+  isToggled: boolean = false;
 
   navItems = [
     { name: "Home", id: "hero" },
@@ -18,6 +19,14 @@ export class NavbarComponent implements OnInit, OnDestroy {
     { name: "Skills", id: "skills" },
     { name: "Contact", id: "contact" },
   ];
+
+  toggle() {
+    this.isToggled = !this.isToggled;
+  }
+
+  setToggle(state: boolean) {
+    this.isToggled = state;
+  }
 
   private scrollHandler = () => {
     this.isScrolled = window.scrollY > 50;

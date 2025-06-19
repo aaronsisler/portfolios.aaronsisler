@@ -1,3 +1,6 @@
+.hamburger {
+  z-index: 50;
+}
 .hamburger__line {
   width: 25px;
   height: 3px;

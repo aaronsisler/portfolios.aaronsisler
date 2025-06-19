@@ -26,13 +26,16 @@
         </button>
         }
       </div>
-      <div class="md:hidden">
-        <app-hamburger />
+      <div class="md:hidden hamburger-wrapper">
+        <app-hamburger
+          [toggled]="isToggled"
+          (toggledChange)="setToggle($event)"
+        ></app-hamburger>
       </div>
     </div>
     <!-- Mobile Navigation -->
     <div class="md:hidden">
-      <div class="flex flex-col space-y-4 pt-4">
+      <div class="nav__links" [class.nav__links--open]="isToggled">
         @for (navItem of navItems; track $index) {
         <button
           key="{item.id}"

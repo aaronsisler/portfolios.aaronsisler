@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Input, Output } from "@angular/core";
 
 @Component({
   selector: "app-hamburger",
@@ -9,7 +9,11 @@ import { Component } from "@angular/core";
 export class HamburgerComponent {
   isToggled: boolean = false;
 
+  @Input() toggled = false;
+  @Output() toggledChange = new EventEmitter<boolean>();
+
   toggle() {
-    this.isToggled = !this.isToggled;
+    this.toggled = !this.toggled;
+    this.toggledChange.emit(this.toggled);
   }
 }
