@@ -1,15 +1,5 @@
 # portfolios.aaronsisler
 
-## Layout
-
-- Navbar
-- Landing
-- About Me
-- Featured Projects
-- Skills & Technologies
-- Let's Connect
-- Footer
-
 ## Project Plan
 
 Work through the plan [here](./PROJECT_PLAN.md).

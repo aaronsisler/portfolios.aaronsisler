@@ -10,6 +10,14 @@ import { Component, OnDestroy, OnInit } from "@angular/core";
 export class NavbarComponent implements OnInit, OnDestroy {
   isScrolled: boolean = false;
 
+  navItems = [
+    { name: "Home", id: "hero" },
+    { name: "About", id: "about" },
+    { name: "Projects", id: "projects" },
+    { name: "Skills", id: "skills" },
+    { name: "Contact", id: "contact" },
+  ];
+
   private scrollHandler = () => {
     this.isScrolled = window.scrollY > 50;
   };

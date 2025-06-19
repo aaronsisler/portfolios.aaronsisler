@@ -1,9 +1,19 @@
 ## Project Plan
 
+## Layout
+
+- Navbar
+- Hero
+- About Me
+- Featured Projects
+- Skills & Technologies
+- Let's Connect
+- Footer
+
 ## Deliverables
 
 - Phase 1: New shell application created, Deployment, and PR process defined
-- Phase 2: Navbar, Landing, and Footer
+- Phase 2: Navbar, Hero, and Footer
 - Phase 3: About Me
 - Phase 4: Skills & Tech
 - Phase 5: Let's Connect
@@ -30,7 +40,7 @@
 
 - This is the CloudFront Id: E3IX6EANN4QMLA
 
-#### Navbar, Landing, and Footer
+#### Navbar, Hero, and Footer
 
 #### About Me
 
