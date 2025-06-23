@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
+## [0.3.0] About Me
+
+- About Me section added
+
 ## [0.2.0] Navbar, Hero, and Footer
 
 ### Added
