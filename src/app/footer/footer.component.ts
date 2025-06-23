@@ -1,8 +1,18 @@
 import { Component } from "@angular/core";
 
+import {
+  bootstrapEnvelopeFill,
+  bootstrapGithub,
+  bootstrapLinkedin,
+} from "@ng-icons/bootstrap-icons";
+import { NgIcon, provideIcons } from "@ng-icons/core";
+
 @Component({
   selector: "app-footer",
-  imports: [],
+  imports: [NgIcon],
+  viewProviders: [
+    provideIcons({ bootstrapLinkedin, bootstrapGithub, bootstrapEnvelopeFill }),
+  ],
   templateUrl: "./footer.component.html",
   styleUrl: "./footer.component.css",
 })
