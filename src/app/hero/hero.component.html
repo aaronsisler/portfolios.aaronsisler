@@ -35,9 +35,15 @@
         <div
           class="flex text-5xl space-x-5 pl-4 sm:self-center items-center justify-center"
         >
-          <ng-icon name="bootstrapLinkedin" />
-          <ng-icon name="bootstrapGithub" />
-          <ng-icon name="bootstrapEnvelopeFill" />
+          <a href="https://www.linkedin.com/in/aaron-sisler/" target="_blank">
+            <ng-icon name="bootstrapLinkedin" />
+          </a>
+          <a href="https://github.com/aaronsisler/" target="_blank">
+            <ng-icon name="bootstrapGithub" />
+          </a>
+          <button class="cursor-pointer" (click)="scrollToSection('contact')">
+            <ng-icon name="bootstrapEnvelopeFill" />
+          </button>
         </div>
       </div>
     </div>
